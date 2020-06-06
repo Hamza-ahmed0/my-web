@@ -1,0 +1,149 @@
+.navbar{
+    background-color: aqua !important;
+}
+.collapse ul li{
+    margin: 3px;
+    padding: 3px;
+}
+.active, .collapse ul li:hover{
+    background-color: coral;
+    border-radius: 3px;
+}
+.carousel {
+    margin-top: 30px;
+    box-shadow: rgb(117, 1, 1) 5px 5px 8px;
+}
+.services{
+     width: 70%;
+     margin-left: 150px;
+     height: 40%;
+}
+h1,h2{
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    color: coral;
+}
+.main{
+    background-color: aqua;
+    margin-top: 15px;
+    padding: 10px;   
+}
+.about{
+    background-color: dimgrey;
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    padding: 15px;
+    line-height: 1.5em;
+    color: black;
+    font-size: larger;
+}
+.intro{
+    background-color:wheat;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+@media screen and (max-width: 700px){
+    intro{
+        width: 400px;
+    }
+}
+.foot{
+    background-color: gray;
+    height: 100px;
+    text-align: center;
+    font-weight: bolder;
+}
+.foot-t{
+    margin-top: 10px;
+    font-size: xx-large;
+    text-shadow: aqua 2px  2px 2px;
+    padding: 15px;
+}
+
+.contact-info{
+    background-color: bisque;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.heading{
+    text-align: left;
+    font-family: serif;
+    font-weight: bold;
+    color: coral;
+    margin-left: 15px;
+    border-bottom: grey 2px dotted;
+    margin-top: 10px;
+    height: 50px;
+    text-shadow: white 2px 2px 4px;
+    font-size: xx-large;
+}
+.one-p{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.sub-contact{
+    padding: 5px;
+    border-bottom: dotted 2px grey;
+}
+.two-p{
+    font-size: large;
+    font-weight: lighter;
+}
+.fay{
+    width: 55px;
+    height: 50px;
+    margin-left: 10px;
+}
+.third-p{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.also{
+    margin-top: 10px;
+}
+.intro-main{
+    background-color: bisque;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.para{
+    border-bottom: dotted grey 2px;
+    margin-left: 15px;
+}
+@media screen and (max-width: 600px){
+    p{
+        width: 80%;
+    }
+}
+h5{
+    color: grey !important;
+    border-bottom: tomato dotted 2px !important;
+    font-size: larger !important;
+    text-shadow: black 8px 8px 8px !important;
+}
+.services{
+    background-color: bisque;
+    margin-left: 80px;
+    justify-content: center;     
+}
+.card{
+    background-color: whitesmoke !important;
+    
+}
+.card-p{
+    text-align: left !important;
+}
+.card-body{
+    box-shadow: rgb(41, 40, 40) 2px 2px 2px;
+}
+.also-2{
+    border-top: grey dotted 2px;
+    margin-top: 10px;
+    padding: 0%;
+}
